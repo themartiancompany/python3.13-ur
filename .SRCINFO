@@ -25,7 +25,7 @@ pkgbase = python3.13
 	optdepends = xz: for lzma
 	optdepends = tk: for tkinter
 	source = https://www.python.org/ftp/python/3.13.0rc1/Python-3.13.0rc1.tar.xz
-	md5sums = 4a4d75794a6c01fe0845ce224dda2e26: xz,
-	md5sums = 7ad09657a223706c5c45240c0199e7cf: gzip
+	md5sums = 9213ecfedc510ac2a14c0eeea96baf02: xz,
+	md5sums = 179bbe323a2118e491ecd7992d7295e2: gzip
 
 pkgname = python3.13

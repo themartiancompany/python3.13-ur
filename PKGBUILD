@@ -15,7 +15,7 @@ depends=('bzip2' 'expat' 'gdbm' 'libffi' 'libnsl' 'libxcrypt' 'openssl' 'zlib' '
 makedepends=('bluez-libs' 'mpdecimal' 'gdb')
 optdepends=('sqlite' 'mpdecimal: for decimal' 'xz: for lzma' 'tk: for tkinter')
 source=(https://www.python.org/ftp/python/${_pyver}/Python-${pkgver}.tar.xz)
-md5sums=('4a4d75794a6c01fe0845ce224dda2e26: xz', '7ad09657a223706c5c45240c0199e7cf: gzip')
+md5sums=('9213ecfedc510ac2a14c0eeea96baf02: xz', '179bbe323a2118e491ecd7992d7295e2: gzip')
 
 prepare() {
   cd "${srcdir}/Python-${pkgver}"
